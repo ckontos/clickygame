@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/minion1.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/minion2.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/minion3.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/minion4.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/minion5.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/minion6.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/minion7.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/minion8.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/minion9.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "./assets/images/minion10.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "./assets/images/minion11.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "./assets/images/minion12.jpg",
+    "clicked": false
+  }
+]

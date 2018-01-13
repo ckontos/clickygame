@@ -1,0 +1,26 @@
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 80px;
+  font-family: 'Bangers', cursive;
+}
+
+
+.scoreSummary{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;	
+ 
+}
+
+.scoreBoard {
+    margin-bottom: 20px;
+}
+
+.heading{
+  width:100%;
+  background: url("halftone-yellow.png");
+  margin-bottom: 20px;
+}
+

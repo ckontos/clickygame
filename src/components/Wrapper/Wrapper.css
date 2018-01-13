@@ -1,0 +1,10 @@
+.wrapper {
+  background: url("seamless_paper_texture.png");
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

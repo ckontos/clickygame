@@ -1,0 +1,26 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 12px 40px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+.card .img-container {
+  overflow: hidden;
+  text-align: center;
+  background: black;
+}
+.card .img-container img {
+  height: 200px;
+  width: 200px;
+}
+
