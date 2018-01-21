@@ -17,52 +17,52 @@ class App extends Component {
     bestScore,
     message
   };
-  
+
   setClicked = id => {
     //variable for the picture clicked so manipulate functionality
     const pictures = this.state.pictures;
     const clickedPicture = pictures.filter(match => match.id === id);
-    
+
     //if the clicked picture has been clicked before
     if (clickedPicture[0].clicked === false) {
-      
+
       clickedPicture[0].clicked = true;
       correctGuesses++;
       console.log(correctGuesses);
       message = "You guessed correctly!";
-      
+
       if (correctGuesses > bestScore) {
         bestScore = correctGuesses;
-         this.setState({bestScore});
+        this.setState({ bestScore });
       }
-      pictures.sort(function(a, b){return 0.5 - Math.random()});
-      
+      pictures.sort(function(a, b) { return 0.5 - Math.random() });
+
       this.setState({ pictures });
-      this.setState({correctGuesses});
-      this.setState({message});
-      
+      this.setState({ correctGuesses });
+      this.setState({ message });
+
     }
     //otherwise(if the picture has not been clicked)
     else {
-      console.log ("Correct Guesses: " + correctGuesses);
-      console.log ("Best Score: " + bestScore);
+      console.log("Correct Guesses: " + correctGuesses);
+      console.log("Best Score: " + bestScore);
 
       correctGuesses = 0;
       message = "You already chose that minion! You have to start over.";
-      
-      for (let i; i < pictures.length; i++) {
+
+      for (let i = 0; i < pictures.length; i++) {
         pictures[i].clicked = false;
       }
-      
-      this.setState({message});
-      this.setState({correctGuesses});
-      this.setState({pictures});
+
+      this.setState({ message });
+      this.setState({ correctGuesses });
+      this.setState({ pictures });
     }
   }
-  
+
   render() {
     return (
-        <Wrapper>
+      <Wrapper>
           
           <div className="heading">
             <Title>
@@ -100,8 +100,8 @@ class App extends Component {
           </h3>
                
         </Wrapper>
-      );
-  } 
+    );
+  }
 }
 
 export default App;
